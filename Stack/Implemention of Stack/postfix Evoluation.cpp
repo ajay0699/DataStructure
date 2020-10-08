@@ -76,7 +76,9 @@ int main()
 			default:
 				char x=c;
 				int no=x-'0';
+				if(no>=0 && no<=9){
 				push(no);
+				}	
 				break;
 		}
 	}
